@@ -1,43 +1,46 @@
-# Enerise - Energy Monitoring System
+# Enervise - Energy Monitoring System
 
-Enerise is a comprehensive energy monitoring system designed to help users track and analyze their energy consumption. The system provides real-time data, historical trends, and insights to optimize energy usage, reduce costs, and improve sustainability efforts. Enerise can be integrated with smart devices and IoT solutions to provide accurate and timely energy reports.
+Enervise is a smart energy monitoring system designed to track and optimize energy consumption in real time. By integrating with IoT devices, it provides insights into energy usage, helps identify areas of inefficiency, and allows users to take control of their energy footprint. 
+
+The system is suitable for both residential and commercial applications, making energy management simpler, more efficient, and more sustainable.
 
 ## Features
 
-- **Real-time Energy Monitoring**: View your energy consumption in real-time across multiple devices.
-- **Historical Data**: Track and analyze your energy usage over weeks, months, or years.
-- **Smart Device Integration**: Connect with IoT-enabled devices to gather precise data.
-- **Energy Efficiency Insights**: Get recommendations to optimize energy consumption and reduce waste.
-- **User-Friendly Dashboard**: An intuitive interface to visualize and understand energy usage patterns.
-- **Notifications & Alerts**: Receive notifications for abnormal energy usage or overconsumption.
+- **Real-Time Energy Monitoring**: Monitor energy consumption across multiple devices in real time.
+- **Historical Data Analysis**: Access historical data to track energy trends over days, weeks, and months.
+- **Smart Device Integration**: Sync with IoT devices for accurate, real-time energy data.
+- **Energy Efficiency Insights**: Receive actionable insights and recommendations to reduce energy waste and improve efficiency.
+- **User-Friendly Dashboard**: View and analyze your energy usage with easy-to-understand charts and visualizations.
+- **Alerts & Notifications**: Get notified when energy consumption exceeds predefined thresholds.
+- **Mobile and Desktop Compatibility**: Access the monitoring system from any device with a web browser.
 
 ## Technologies Used
 
 - **Frontend**:
   - HTML, CSS, JavaScript
-  - React (for dynamic UI components)
+  - React (for dynamic user interface components)
   - Chart.js (for data visualization)
-  
+
 - **Backend**:
-  - Node.js (for API server)
-  - Express.js (for routing and server-side logic)
-  - MongoDB (for storing user data and energy logs)
+  - Node.js (API server)
+  - Express.js (for routing and handling requests)
+  - MongoDB (for storing user data and energy usage logs)
 
 - **IoT Integration**:
-  - MQTT (for communication with IoT devices)
-  - REST APIs (for data retrieval)
+  - MQTT (for communication with smart devices)
+  - REST APIs (for device data retrieval)
 
 ## Installation
 
-To get started with the Enerise energy monitoring system, follow the instructions below:
+To get started with the Enervise Energy Monitoring System, follow these steps:
 
 ### Prerequisites
 
 - Node.js installed on your machine. You can download it from [here](https://nodejs.org/).
-- MongoDB instance (either locally or cloud-based).
+- A MongoDB instance (locally or via cloud-based services like MongoDB Atlas).
 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/enerise.git
-cd enerise
+git clone https://github.com/yourusername/enervise.git
+cd enervise
